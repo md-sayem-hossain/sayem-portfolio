@@ -9,6 +9,8 @@ import { ContactSection } from './components/ContactSection';
 import { ProjectDetails } from './components/ProjectDetails';
 import { ExperienceSection } from './components/ExperienceSection';
 import { Footer } from './components/Footer';
+import {MoreProjects} from './components/MoreProjects';
+
 
 export function App() {
   return (
