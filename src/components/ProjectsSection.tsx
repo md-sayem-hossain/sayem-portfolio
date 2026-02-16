@@ -1,6 +1,6 @@
 import React from "react";
 import { BentoCard } from "./ui/BentoCard";
-import { ArrowUpRightIcon, GithubIcon, ExternalLink } from "lucide-react";
+import { ArrowUpRightIcon, GithubIcon, ExternalLink } from "lucide-react";  
 import { Link } from "react-router-dom";
 
 // ✅ Export projects array so it can be used in ProjectDetails
@@ -15,7 +15,7 @@ export const featuredProjects = [
     color: "from-blue-500/20 to-cyan-500/20",
     large: true,
     github: "http://sayem-qrcodegenerator.vercel.app/",
-    images: ["images/quantum1.png", "./images/quantum2.png", "../images/quantum1.png",],
+    images: ["/images/quantum1.png", "/images/quantum2.png"],
   },
   {
     title: "QR Code Generator",
