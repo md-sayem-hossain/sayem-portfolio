@@ -5,28 +5,36 @@ import { Briefcase, GraduationCap } from 'lucide-react';
 export function ExperienceSection() {
   const experiences = [
     {
-      title: 'Machine Learning Research Assistant',
-      company: 'University Research',
+      title: 'Senior Software Executive',
+      company: 'Pacific Jeans Limited, Bangladesh',
       period: '2025 - Present',
       description:
-        'Developing a lightweight Malaysian Sign Language recognition system using MediaPipe and classical ML algorithms.',
-      icon: <GraduationCap size={18} />
-    },
-    {
-      title: 'Full Stack Developer',
-      company: 'Hospital Management System',
-      period: '2024 - 2025',
-      description:
-        'Designed and implemented HMS with complete SRS documentation, diagrams, and backend integration.',
+        'Working in In-house projects, Oracle SQL, Oracle report, Oracle EBS',
       icon: <Briefcase size={18} />
     },
     {
-      title: 'AI & Computer Vision Developer',
-      company: 'Player Recognition System',
-      period: '2024',
+      title: 'Research Helper & Web Developer',
+      company: 'Taylor\'s University, Malaysia',
+      period: '2023 - 2025',
       description:
-        'Built multi-modal player recognition using ArcFace, OCR fallback, and OpenCV real-time detection.',
+        'Developed and maintained the APCPCTaylors conference website (apcpctaylors.com) using WordPress and Elementor, including custom forms. Built UI and Android app with Kotlin for Impact Lab Taylors, with experience in machine learning and deep learning.',
       icon: <Briefcase size={18} />
+    },
+    {
+      title: 'Software Executive',
+      company: 'Pacific Jeans Limited, Bangladesh',
+      period: '2022-2023',
+      description:
+        'Built and maintained in-house web applications using ASP.NET Core, Web API, MVC, EF, C#, Web Forms, Angular, Node.js, PHP, and MySQL. Developed Oracle reports with Report Builder and SQL, while providing bug fixes and technical support.',
+      icon: <Briefcase size={18} /> 
+    },
+    {
+      title: 'Software Engineer',
+      company: 'Global Tech Information Systems, Bangladesh',
+      period: '2021',
+      description:
+        'Built full-stack web apps with ASP.NET, Web API, MVC, EF, PHP, and MySQL, featuring responsive UI/UX and custom templates.',
+      icon: <Briefcase size={18} /> 
     }
   ];
 

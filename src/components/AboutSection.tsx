@@ -25,20 +25,14 @@ export function AboutSection() {
               </h3>
               <div className="space-y-4 text-zinc-400 leading-relaxed">
                 <p>
-                  I'm a Full Stack Developer with over 8 years of experience in
-                  building scalable web applications. My journey started with
-                  simple HTML pages and evolved into complex distributed
-                  systems.
+                  I'm a Full Stack Developer with over 5 years of experience in building scalable web applications. My journey started with simple HTML pages and evolved into complex distributed systems.
                 </p>
                 <p>
-                  I specialize in the JavaScript ecosystem, particularly React
-                  and Node.js, but I'm always exploring new technologies. I
-                  believe in writing clean, maintainable code and designing
-                  intuitive user interfaces that solve real problems.
+                  I specialize in Asp.Net, C#, MSSQL & Oracle. I'm always exploring new technologies. I
+                  believe in writing clean, maintainable code and designing intuitive user interfaces that solve real problems.
                 </p>
                 <p>
-                  When I'm not coding, you can find me exploring the outdoors,
-                  reading sci-fi novels, or tinkering with IoT projects.
+                  When I'm not coding, you can find me exploring the outdoors, watchine sci-fi movies, or tinkering with new AI technologies.
                 </p>
               </div>
             </div>

@@ -8,9 +8,8 @@ import { AboutSection } from './components/AboutSection';
 import { ContactSection } from './components/ContactSection';
 import { ProjectDetails } from './components/ProjectDetails';
 import { ExperienceSection } from './components/ExperienceSection';
-import { Footer } from './components/Footer';
-import {MoreProjects} from './components/MoreProjects';
-
+import { Footer } from './components/Footer'; 
+import MoreProjects from './components/MoreProjects';
 
 export function App() {
   return (
@@ -38,6 +37,7 @@ export function App() {
 
             {/* Single Project Details Page */}
             <Route path="/project/:title" element={<ProjectDetails />} />
+            <Route path="/moreprojects" element={<MoreProjects/>} /> 
           </Routes>
         </main>
 

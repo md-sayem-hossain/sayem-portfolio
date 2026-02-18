@@ -10,7 +10,9 @@ import {
   LinkedinIcon,
   MailIcon,
 } from "lucide-react";
-import { SiReact, SiNodedotjs, SiTypescript, SiPython, SiDotnet, SiAngular, SiCodecrafters } from "react-icons/si";
+import { BsDatabase  } from "react-icons/bs"; 
+
+import { SiReact, SiNodedotjs, SiTypescript, SiPython, SiDotnet, SiAngular } from "react-icons/si";
 const techStack = [
   { name: "React", icon: <SiReact className="text-cyan-400" size={20} /> },
   { name: "Node", icon: <SiNodedotjs className="text-green-500" size={20} /> },
@@ -18,7 +20,7 @@ const techStack = [
   { name: "Python", icon: <SiPython className="text-yellow-400" size={20} /> },
   { name: "Dotnet", icon: <SiDotnet className="text-purple-400" size={20} /> },
   { name: "Angular", icon: <SiAngular className="text-red-400" size={20} /> }, 
-  { name: "MSSQL", icon: <SiCodecrafters className="text-purple-400" size={20} /> },
+  { name: "MSSQL", icon: <BsDatabase className="text-purple-400" size={20} /> },
 ];
 
 export function HeroSection() {

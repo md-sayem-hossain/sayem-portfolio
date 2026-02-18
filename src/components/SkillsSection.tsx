@@ -6,43 +6,22 @@ export function SkillsSection() {
   {
     name: 'Frontend',
     icon: <LayersIcon size={18} />,
-    skills: [
-    'React',
-    'TypeScript',
-    'Next.js',
-    'Tailwind CSS',
-    'Framer Motion',
-    'Three.js',
-    'Redux'] 
+    skills: ['Angular', 'React.js', 'Tailwind CSS', 'WordPress', 'Elementor', 'Woo-Commerce', 'Kotlin', 'HTML', 'CSS', 'JS'] 
   },
   {
     name: 'Backend',
     icon: <DatabaseIcon size={18} />,
-    skills: [
-    'Node.js',
-    'Python',
-    'Go',
-    'PostgreSQL',
-    'Redis',
-    'GraphQL',
-    'FastAPI']
-
+    skills: ['ASP.NET', 'MVC', 'Core', 'WebAPI', 'EF', 'Web Forms', 'C# desktop application', 'Node.js', 'PHP', 'Java', 'Python', 'LINQ', 'ADO.NET', 'Machine Learning', 'Deep Learning']
   },
   {
-    name: 'DevOps',
+    name: 'DevOps / Database',
     icon: <CpuIcon size={18} />,
-    skills: ['Docker', 'AWS', 'Kubernetes', 'CI/CD', 'Terraform', 'Linux']
+    skills: ['Oracle', 'Oracle Report', 'Oracle SQL', 'Oracle EBS', 'MSSQL', 'MySQL']
   },
   {
-    name: 'Design',
+    name: 'Design / Other',
     icon: <GlobeIcon size={18} />,
-    skills: [
-    'Figma',
-    'UI/UX',
-    'Prototyping',
-    'Design Systems',
-    'Accessibility']
-
+    skills: ['UI/UX design', 'Figma', 'Adobe XD', 'Photoshop', 'Balsamiq']
   }];
 
   return (
