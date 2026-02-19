@@ -1,0 +1,201 @@
+[
+  {
+    "title": "Quantum Dashboard",
+    "description": "Real-time analytics platform for high-frequency trading data visualization.",
+    "category": "AI Application",
+    "tags": ["Python", "TensorFlow", "OpenCV", "ASP.NET", "MSSQL"],
+    "stats": {
+      "accuracy": "96.4%",
+      "speed": "38ms",
+      "scale": "12K+ samples"
+    },
+    "fullDescription": "Smart Leaf AI detects plant leaf diseases using deep learning and computer vision. Farmers can upload leaf images to receive instant diagnosis and treatment suggestions. Designed for real-time agricultural monitoring.",
+    "color": "from-green-500/20 to-emerald-500/20",
+    "large": true,
+    "liveLink": "https://smartleafai-demo.com",
+    "github": "https://github.com/username/smartleafai",
+    "languages": ["Python", "JavaScript", "HTML", "CSS"],
+    "features": [
+      "Real-time leaf disease detection",
+      "Mobile-friendly interface",
+      "Treatment recommendation system",
+      "Image preprocessing pipeline",
+      "Multi-class classification model"
+    ],
+    "images": [
+      "images/quantum1.png",
+      "https://placehold.co/800x400"
+    ]
+  },
+  {
+    "title": "SignVision Pro",
+    "description": "Real-time sign language recognition web application.",
+    "category": "AI Website",
+    "tags": ["MediaPipe", "SVM", "OpenCV"],
+    "stats": {
+      "accuracy": "92.8%",
+      "speed": "45ms",
+      "scale": "8K+ samples"
+    },
+    "fullDescription": "SignVision Pro translates sign language gestures into text using MediaPipe keypoint extraction and machine learning classifiers. Built for accessibility and educational support.",
+    "color": "from-purple-500/20 to-pink-500/20",
+    "large": true,
+    "liveLink": "https://signvision-demo.com",
+    "github": "https://github.com/username/signvision",
+    "languages": ["Python", "React", "TypeScript", "CSS"],
+    "features": [
+      "Real-time gesture detection",
+      "Custom dataset training",
+      "Feature engineering approach",
+      "Low-latency inference",
+      "User-friendly dashboard"
+    ],
+    "images": [
+      "https://placehold.co/800x400",
+      "https://placehold.co/800x400"
+    ]
+  },
+  {
+    "title": "FinTrack Dashboard",
+    "description": "Personal finance tracking and analytics platform.",
+    "category": "Web Application",
+    "tags": ["React", "Node.js", "MongoDB"],
+    "stats": {
+      "accuracy": "99%",
+      "speed": "120ms",
+      "scale": "25K+ users"
+    },
+    "fullDescription": "FinTrack Dashboard helps users manage income, expenses, and savings with interactive charts and smart financial insights. Built with a full-stack JavaScript architecture.",
+    "color": "from-blue-500/20 to-indigo-500/20",
+    "large": false,
+    "liveLink": "https://fintrack-demo.com",
+    "github": "https://github.com/username/fintrack",
+    "languages": ["JavaScript", "React", "Node.js", "MongoDB"],
+    "features": [
+      "Expense tracking system",
+      "Interactive financial charts",
+      "Secure user authentication",
+      "Multi-user support",
+      "Exportable reports"
+    ],
+    "images": [
+      "https://placehold.co/800x400",
+      "https://placehold.co/800x400"
+    ]
+  },
+  {
+    "title": "EduCore LMS",
+    "description": "Learning management system for online education.",
+    "category": "Website",
+    "tags": ["ASP.NET", "MSSQL", "EntityFramework"],
+    "stats": {
+      "accuracy": "100%",
+      "speed": "95ms",
+      "scale": "5K+ students"
+    },
+    "fullDescription": "EduCore LMS provides online course management, student tracking, quizzes, and certification generation for educational institutions.",
+    "color": "from-orange-500/20 to-red-500/20",
+    "large": false,
+    "liveLink": "https://educore-demo.com",
+    "github": "https://github.com/username/educore",
+    "languages": ["C#", "ASP.NET", "SQL", "JavaScript"],
+    "features": [
+      "Course management panel",
+      "Online exam system",
+      "Role-based authentication",
+      "Progress tracking",
+      "Certificate generation"
+    ],
+    "images": [
+      "https://placehold.co/800x400",
+      "https://placehold.co/800x400"
+    ]
+  },
+  {
+    "title": "SecureChat X",
+    "description": "End-to-end encrypted real-time messaging platform.",
+    "category": "Web Application",
+    "tags": ["Node.js", "Socket.io", "Redis"],
+    "stats": {
+      "accuracy": "100%",
+      "speed": "28ms",
+      "scale": "50K+ messages/day"
+    },
+    "fullDescription": "SecureChat X offers real-time encrypted messaging for teams and enterprises. Built with WebSockets and Redis caching for scalability.",
+    "color": "from-cyan-500/20 to-blue-500/20",
+    "large": false,
+    "liveLink": "https://securechat-demo.com",
+    "github": "https://github.com/username/securechat",
+    "languages": ["JavaScript", "Node.js", "Redis", "HTML"],
+    "features": [
+      "End-to-end encryption",
+      "Group messaging",
+      "Typing indicators",
+      "Push notifications",
+      "Scalable WebSocket architecture"
+    ],
+    "images": [
+      "https://placehold.co/800x400",
+      "https://placehold.co/800x400"
+    ]
+  }
+,
+  {
+    "title": "SecureChat X",
+    "description": "End-to-end encrypted real-time messaging platform.",
+    "category": "Web Application",
+    "tags": ["Node.js", "Socket.io", "Redis"],
+    "stats": {
+      "accuracy": "100%",
+      "speed": "28ms",
+      "scale": "50K+ messages/day"
+    },
+    "fullDescription": "SecureChat X offers real-time encrypted messaging for teams and enterprises. Built with WebSockets and Redis caching for scalability.",
+    "color": "from-cyan-500/20 to-blue-500/20",
+    "large": false,
+    "liveLink": "https://securechat-demo.com",
+    "github": "https://github.com/username/securechat",
+    "languages": ["JavaScript", "Node.js", "Redis", "HTML"],
+    "features": [
+      "End-to-end encryption",
+      "Group messaging",
+      "Typing indicators",
+      "Push notifications",
+      "Scalable WebSocket architecture"
+    ],
+    "images": [
+      "https://placehold.co/800x400",
+      "https://placehold.co/800x400"
+    ]
+  }
+,
+  {
+    "title": "SecureChat X",
+    "description": "End-to-end encrypted real-time messaging platform.",
+    "category": "Web Application",
+    "tags": ["Node.js", "Socket.io", "Redis"],
+    "stats": {
+      "accuracy": "100%",
+      "speed": "28ms",
+      "scale": "50K+ messages/day"
+    },
+    "fullDescription": "SecureChat X offers real-time encrypted messaging for teams and enterprises. Built with WebSockets and Redis caching for scalability.",
+    "color": "from-cyan-500/20 to-blue-500/20",
+    "large": false,
+    "liveLink": "https://securechat-demo.com",
+    "github": "https://github.com/username/securechat",
+    "languages": ["JavaScript", "Node.js", "Redis", "HTML"],
+    "features": [
+      "End-to-end encryption",
+      "Group messaging",
+      "Typing indicators",
+      "Push notifications",
+      "Scalable WebSocket architecture"
+    ],
+    "images": [
+      "https://placehold.co/800x400",
+      "https://placehold.co/800x400"
+    ]
+  }
+
+]

@@ -1,77 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BentoCard } from "./ui/BentoCard";
 import { ArrowUpRightIcon, GithubIcon, ExternalLink } from "lucide-react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
-// ✅ Export projects array so it can be used in ProjectDetails
-export const featuredProjects = [
-  {
-    title: "Quantum Dashboard",
-    description:
-      "Real-time analytics platform for high-frequency trading data visualization.",
-    details:
-      "Built a dashboard to visualize trading data with real-time charts and analytics. Supports live data streams and interactive charts for decision making.",
-    tags: ["ASP.NET", "MSSQL", "Session", "EntityFramework"],
-    color: "from-blue-500/20 to-cyan-500/20",
-    large: true,
-    github: "http://sayem-qrcodegenerator.vercel.app/",
-    images: ["/images/quantum1.png", "/images/quantum2.png"],
-  },
-  {
-    title: "QR Code Generator",
-    description:
-      "AI-powered API gateway with automated rate limiting and threat detection.",
-    details:
-      "Implemented secure API gateway with automated rate limiting, monitoring, and threat detection using gRPC and Redis caching.",
-    tags: ["HTML", "CSS", "Redis"],
-    color: "from-purple-500/20 to-pink-500/20",
-    large: true,
-    github: "http://sayem-qrcodegenerator.vercel.app/",
-    images: ["/images/qr_code_generator1.png"],
-  },
-  {
-    title: "Vortex UI Kit",
-    description: "Component library for building spatial interfaces.",
-    details:
-      "Created reusable UI components in TypeScript and TailwindCSS for faster front-end development and consistent design.",
-    tags: ["TypeScript", "Tailwind"],
-    large: false,
-    github: "#",
-    images: ["/images/vortex1.png"],
-  },
-  {
-    title: "Echo Chat",
-    description: "E2E encrypted messaging for enterprise teams.",
-    details:
-      "Developed a real-time messaging app with end-to-end encryption, group chats, and notifications using Node.js and Socket.io.",
-    tags: ["Node.js", "Socket.io"],
-    large: false,
-    github: "#",
-    images: ["/images/echo1.png"],
-  },
-  {
-    title: "Prisma Cloud",
-    description: "Serverless database management tool.",
-    details:
-      "Built a serverless platform for managing databases with Rust and WebAssembly, supporting scalable and fast queries.",
-    tags: ["Rust", "WASM"],
-    large: false,
-    github: "#",
-    images: ["/images/prisma1.png"],
-  },
-  {
-    title: "Zenith Notes",
-    description: "Markdown editor with bi-directional linking.",
-    details:
-      "Created a desktop note-taking app using Electron and React, supporting Markdown, links between notes, and offline storage.",
-    tags: ["Electron", "React"],
-    large: false,
-    github: "#",
-    images: ["/images/zenith1.png"],
-  },
-];
+// ✅ Export so ProjectDetails can still use it
+export let featuredProjects: any[] = [];
 
 export function ProjectsSection() {
+  const [projects, setProjects] = useState<any[]>([]);
+
+  useEffect(() => {
+    fetch("projects/projects.json")
+      .then((res) => res.json())
+      .then((data) => {
+        // Only pick required fields + map fullDescription → details data .slice(0, 6)
+        const filtered = data.slice(0, 6).map((project: any) => ({
+          title: project.title,
+          description: project.description,
+          details: project.fullDescription,
+          tags: project.tags,
+          color: project.color,
+          large: project.large,
+          github: project.github,
+          liveLink: project.liveLink,
+          images: project.images,
+        }));
+
+        featuredProjects = filtered;
+        setProjects(filtered);
+      })
+      .catch((err) => console.error("Failed to load projects:", err));
+  }, []);
+
   return (
     <section className="py-16" id="projects">
       <div className="flex items-center gap-2 mb-8">
@@ -82,7 +42,7 @@ export function ProjectsSection() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-        {featuredProjects.map((project, index) => (
+        {projects.map((project, index) => (
           <BentoCard
             key={project.title}
             delay={index * 0.1}
@@ -92,7 +52,7 @@ export function ProjectsSection() {
                 : "col-span-1 min-h-[240px]"
             }`}
           >
-            {/* 🖼️ NEW: Background Image Preview on Hover */}
+            {/* Background Image */}
             {project.images && project.images[0] && (
               <div className="absolute inset-0 z-0 overflow-hidden">
                 <img
@@ -103,6 +63,7 @@ export function ProjectsSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111113] via-[#111113]/60 to-transparent" />
               </div>
             )}
+
             {project.large && (
               <div
                 className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-20 transition-opacity duration-500`}
@@ -113,20 +74,23 @@ export function ProjectsSection() {
               {/* Top Icons */}
               <div className="flex justify-between items-start mb-4">
                 <div className="flex gap-2">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2 rounded-lg bg-white/5 border border-white/10 text-zinc-400 hover:text-white hover:bg-white/10 transition-all"
-                    title="View Source Code"
-                  >
-                    <GithubIcon size={18} />
-                  </a>
-                  {/* ✨ ADDED: Live Link Icon if available */}
-                  {project.github !== "#" && (
+                  {project.github && (
                     <a
                       href={project.github}
                       target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 rounded-lg bg-white/5 border border-white/10 text-zinc-400 hover:text-white hover:bg-white/10 transition-all"
+                      title="View Source Code"
+                    >
+                      <GithubIcon size={18} />
+                    </a>
+                  )}
+
+                  {project.liveLink && (
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="p-2 rounded-lg bg-white/5 border border-white/10 text-zinc-400 hover:text-blue-400 hover:bg-white/10 transition-all"
                       title="Live Demo"
                     >
@@ -155,7 +119,7 @@ export function ProjectsSection() {
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-auto">
-                {project.tags.map((tag) => (
+                {project.tags?.map((tag: string) => (
                   <span
                     key={tag}
                     className="px-3 py-1 text-xs font-medium text-zinc-400 bg-zinc-900/50 border border-zinc-800 rounded-full transition-colors hover:bg-blue-500 hover:text-white"
@@ -168,6 +132,7 @@ export function ProjectsSection() {
           </BentoCard>
         ))}
       </div>
+
       <Link
         to="/MoreProjects"
         className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-zinc-400 hover:text-white transition-colors"
@@ -176,7 +141,6 @@ export function ProjectsSection() {
         <ExternalLink size={20} />
         View More
       </Link>
- 
     </section>
   );
 }
