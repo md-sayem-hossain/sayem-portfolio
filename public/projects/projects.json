@@ -100,7 +100,7 @@
     },
     "fullDescription": "Market Place is a full E-Commerce template made with react and vite. This website supports multi category with multi payment option. This is a complete E-Commerce website template.",
     "color": "from-purple-500/20 to-pink-500/20",
-    "large": true,
+    "large": false,
     "liveLink": "https://sayem-market.vercel.app/",
     "github": "https://sayem-market.vercel.app/",
     "languages": ["React JS", "Vite", "HTML", "CSS", "MockData"],
