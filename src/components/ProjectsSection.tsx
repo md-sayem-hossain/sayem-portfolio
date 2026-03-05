@@ -14,7 +14,7 @@ export function ProjectsSection() {
       .then((res) => res.json())
       .then((data) => {
         // Only pick required fields + map fullDescription → details data .slice(0, 6)
-        const filtered = data.slice(0, 6).map((project: any) => ({
+        const filtered = data.slice(0, 5).map((project: any) => ({
           title: project.title,
           description: project.description,
           details: project.fullDescription,
