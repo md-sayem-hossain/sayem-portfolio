@@ -1,201 +1,196 @@
 [
   {
-    "title": "Quantum Dashboard",
-    "description": "Real-time analytics platform for high-frequency trading data visualization.",
-    "category": "AI Application",
-    "tags": ["Python", "TensorFlow", "OpenCV", "ASP.NET", "MSSQL"],
+    "title": "Asia Pacific Conference on Psychology and Counselling",
+    "description": "Co-organised by Taylor's University and the Ministry of Health (MOH), Malaysia.",
+    "category": "Academy",
+   "tags": ["Taylor's University", "Malaysia", "Ministry of Health", "Conference Website", "Event Management", "APCPCTaylors"],
     "stats": {
-      "accuracy": "96.4%",
-      "speed": "38ms",
-      "scale": "12K+ samples"
+      "accuracy": "Accurate event information",
+      "speed": "Fast page loading (<2s)",
+      "scale": "Supports 1000+ participants"
     },
-    "fullDescription": "Smart Leaf AI detects plant leaf diseases using deep learning and computer vision. Farmers can upload leaf images to receive instant diagnosis and treatment suggestions. Designed for real-time agricultural monitoring.",
-    "color": "from-green-500/20 to-emerald-500/20",
+    "fullDescription": "The Asia Pacific Conference on Psychology and Counselling 2026 (APCPC 2026), taking place on 9–11 June 2026 at Resorts World Awana, Genting Highlands, Malaysia. APCPC 2026 brings together leading scholars, practitioners, policymakers, and students across the Asia Pacific region to engage in critical dialogue, knowledge exchange, and collaboration in psychology and counselling. Co-organised by Taylor’s University and the Ministry of Health (MOH), Malaysia, the conference offers a dual-track academic and industry platform designed to strengthen the connection between research, practice, and policy in mental health and counselling.",
     "large": true,
-    "liveLink": "https://smartleafai-demo.com",
-    "github": "https://github.com/username/smartleafai",
-    "languages": ["Python", "JavaScript", "HTML", "CSS"],
+    "liveLink": "https://apcpctaylors.com/",
+    "github": "https://apcpctaylors.com/",
+    "languages": ["Wordpress", "Elementor", "Php", "HTML", "CSS", "WpForms"],
     "features": [
-      "Real-time leaf disease detection",
-      "Mobile-friendly interface",
-      "Treatment recommendation system",
-      "Image preprocessing pipeline",
-      "Multi-class classification model"
+      "Detailed conference overview and event information",
+      "Keynote speakers and session highlights",
+      "Participant registration via forms",
+      "Structured conference agenda and schedule",
+      "Call for papers and academic submission guidelines",
+      "Responsive WordPress design using Elementor",
+      "Organizer, partner, and sponsor presentation",
+      "Contact and inquiry management system"
     ],
     "images": [
-      "images/quantum1.png",
-      "https://placehold.co/800x400"
+      "images/APCPC1.png",
+      "images/APCPC2.png",
+      "images/APCPC3.png"
     ]
   },
   {
-    "title": "SignVision Pro",
-    "description": "Real-time sign language recognition web application.",
-    "category": "AI Website",
-    "tags": ["MediaPipe", "SVM", "OpenCV"],
+    "title": "Bazaar - Multi Language ECommerce Website",
+    "description": "Multi language E-Commerce web application template.",
+    "category": "ECommerce",
+    "tags": ["ECommerce", "Multi Language", "Online Shopping", "Mutli payment"],
     "stats": {
-      "accuracy": "92.8%",
-      "speed": "45ms",
-      "scale": "8K+ samples"
+      "accuracy": "-%",
+      "speed": "-",
+      "scale": "-"
     },
-    "fullDescription": "SignVision Pro translates sign language gestures into text using MediaPipe keypoint extraction and machine learning classifiers. Built for accessibility and educational support.",
+    "fullDescription": "Bazaar is a full E-Commerce template made with react and vite. This website supports multi language. Multiple payment sytem has been added to it for testing purposes. For example, Bkash, Cash on delivery, Card, Online payment. The webite has order tracking system also. The website contains an admin panel to control the website products.",
     "color": "from-purple-500/20 to-pink-500/20",
     "large": true,
-    "liveLink": "https://signvision-demo.com",
-    "github": "https://github.com/username/signvision",
-    "languages": ["Python", "React", "TypeScript", "CSS"],
+    "liveLink": "https://bazaar-ecomm.vercel.app/",
+    "github": "https://bazaar-ecomm.vercel.app/",
+    "languages": ["React JS", "Vite", "HTML", "CSS", "MockData"],
     "features": [
-      "Real-time gesture detection",
-      "Custom dataset training",
-      "Feature engineering approach",
-      "Low-latency inference",
-      "User-friendly dashboard"
+      "Multi Language support",
+      "Registration and login using supabase database",
+      "Multi payment sytem like Bkash, COD, Card and online payment for testing",
+      "User friendly dashboard",
+      "and more"
     ],
     "images": [
-      "https://placehold.co/800x400",
-      "https://placehold.co/800x400"
+      "images/BazaarEcomm1.png",
+      "images/BazaarEcomm2.png",
+      "images/BazaarEcomm3.png"
     ]
   },
   {
-    "title": "FinTrack Dashboard",
-    "description": "Personal finance tracking and analytics platform.",
-    "category": "Web Application",
-    "tags": ["React", "Node.js", "MongoDB"],
+    "title": "Market Place - ECommerce Website",
+    "description": "Multi Category E-Commerce web application template.",
+    "category": "ECommerce",
+    "tags": ["ECommerce", "Multi Language", "Online Shopping", "Mutli payment"],
     "stats": {
-      "accuracy": "99%",
-      "speed": "120ms",
-      "scale": "25K+ users"
+      "accuracy": "-",
+      "speed": "-",
+      "scale": "-"
     },
-    "fullDescription": "FinTrack Dashboard helps users manage income, expenses, and savings with interactive charts and smart financial insights. Built with a full-stack JavaScript architecture.",
+    "fullDescription": "Market Place is a full E-Commerce template made with react and vite. This website supports multi category. This is a complete E-Commerce website template.",
+    "color": "from-purple-500/20 to-pink-500/20",
+    "large": true,
+    "liveLink": "https://sayem-market.vercel.app/",
+    "github": "https://sayem-market.vercel.app/",
+    "languages": ["React JS", "Vite", "HTML", "CSS", "MockData"],
+    "features": [
+      "Multi Category support",
+      "Registration and login",
+      "User friendly design",
+      "Admin dashboard",
+      "and more"
+    ],
+    "images": [
+      "images/marketplace1.png",
+      "images/marketplace2.png",
+      "images/marketplace3.png"
+    ]
+  }, 
+  {
+    "title": "Market Pro - ECommerce Website",
+    "description": "E-Commerce web application template.",
+    "category": "ECommerce",
+    "tags": ["ECommerce", "Online Shopping"],
+    "stats": {
+      "accuracy": "-",
+      "speed": "-",
+      "scale": "-"
+    },
+    "fullDescription": "Market Place is a full E-Commerce template made with react and vite. This website supports multi category with multi payment option. This is a complete E-Commerce website template.",
+    "color": "from-purple-500/20 to-pink-500/20",
+    "large": true,
+    "liveLink": "https://sayem-market.vercel.app/",
+    "github": "https://sayem-market.vercel.app/",
+    "languages": ["React JS", "Vite", "HTML", "CSS", "MockData"],
+    "features": [
+      "Multi Category support",
+      "Registration and login",
+      "Multiple payment system",
+      "User friendly design",
+      "Admin dashboard",
+      "and more"
+    ],
+    "images": [
+      "images/marketpro1.png",
+      "images/marketpro2.png",
+      "images/marketpro13.png"
+    ]
+  },
+  {
+    "title": "Profile Card Design - Component",
+    "description": "Profile Card Component Design",
+    "category": "Web Application",
+    "tags": ["User Profile", "Description"],
+    "stats": {
+      "accuracy": "-",
+      "speed": "-",
+      "scale": "-"
+    },
+    "fullDescription": "This profile card was designed using html, css and js. This was a challange project from frontendmentor website.",
     "color": "from-blue-500/20 to-indigo-500/20",
     "large": false,
-    "liveLink": "https://fintrack-demo.com",
-    "github": "https://github.com/username/fintrack",
-    "languages": ["JavaScript", "React", "Node.js", "MongoDB"],
+    "liveLink": "https://profile-card-design-sayem.vercel.app/",
+    "github": "https://profile-card-design-sayem.vercel.app/",
+    "languages": ["HTML", "CSS", "Javascript"],
     "features": [
-      "Expense tracking system",
-      "Interactive financial charts",
-      "Secure user authentication",
-      "Multi-user support",
-      "Exportable reports"
+      "Responsive profile card design"
     ],
     "images": [
-      "https://placehold.co/800x400",
-      "https://placehold.co/800x400"
-    ]
+      "images/profilecard.png"]
   },
   {
-    "title": "EduCore LMS",
-    "description": "Learning management system for online education.",
-    "category": "Website",
-    "tags": ["ASP.NET", "MSSQL", "EntityFramework"],
+    "title": "QR Code Generator",
+    "description": "Text to QR Code generator",
+    "category": "Component",
+    "tags": ["QR Code", "QR", "Component design"],
     "stats": {
-      "accuracy": "100%",
-      "speed": "95ms",
-      "scale": "5K+ students"
+      "accuracy": "-",
+      "speed": "-",
+      "scale": "-"
     },
-    "fullDescription": "EduCore LMS provides online course management, student tracking, quizzes, and certification generation for educational institutions.",
+    "fullDescription": "This QR code generator was designed using html, css and js. This was a challange project from frontendmentor website.",
     "color": "from-orange-500/20 to-red-500/20",
     "large": false,
-    "liveLink": "https://educore-demo.com",
-    "github": "https://github.com/username/educore",
-    "languages": ["C#", "ASP.NET", "SQL", "JavaScript"],
+    "liveLink": "https://sayem-qrcodegenerator.vercel.app/",
+    "github": "https://sayem-qrcodegenerator.vercel.app/",
+    "languages": ["HTML", "CSS", "Javascript"],
     "features": [
-      "Course management panel",
-      "Online exam system",
-      "Role-based authentication",
-      "Progress tracking",
-      "Certificate generation"
+      "Responsive Design",
+      "Text to QR Code generator",
+      "Auto download QR after generate" 
     ],
     "images": [
-      "https://placehold.co/800x400",
-      "https://placehold.co/800x400"
+      "images/qr_code_generator_1.png",
+      "images/qr_code_generator_2.png"
     ]
   },
   {
-    "title": "SecureChat X",
-    "description": "End-to-end encrypted real-time messaging platform.",
+    "title": "Lehrstell - Resume making Website",
+    "description": "Online European format Resume and letter of motivation maker.",
     "category": "Web Application",
-    "tags": ["Node.js", "Socket.io", "Redis"],
+    "tags": ["European Resume", "Resume"],
     "stats": {
-      "accuracy": "100%",
-      "speed": "28ms",
-      "scale": "50K+ messages/day"
+      "accuracy": "-",
+      "speed": "-",
+      "scale": "-"
     },
-    "fullDescription": "SecureChat X offers real-time encrypted messaging for teams and enterprises. Built with WebSockets and Redis caching for scalability.",
+    "fullDescription": "This website was made for a online client from switzerland. The goal of this project was to make a european resumen format. User used to fill the details in the website and it auto generate the cv based on the information.",
     "color": "from-cyan-500/20 to-blue-500/20",
     "large": false,
-    "liveLink": "https://securechat-demo.com",
-    "github": "https://github.com/username/securechat",
-    "languages": ["JavaScript", "Node.js", "Redis", "HTML"],
+    "liveLink": "uplehrstell.vercel.app",
+    "github": "uplehrstell.vercel.app",
+    "languages": ["JavaScript", "Node.js", "Angular", "HTML"],
     "features": [
-      "End-to-end encryption",
-      "Group messaging",
-      "Typing indicators",
-      "Push notifications",
-      "Scalable WebSocket architecture"
+      "Create a resume",
+      "Creating a letter of motivation",
+      "Preparing for a job interview"
     ],
     "images": [
-      "https://placehold.co/800x400",
-      "https://placehold.co/800x400"
+      "images/lehrstell1.png",
+      "images/lehrstell2.png"
     ]
-  }
-,
-  {
-    "title": "SecureChat X",
-    "description": "End-to-end encrypted real-time messaging platform.",
-    "category": "Web Application",
-    "tags": ["Node.js", "Socket.io", "Redis"],
-    "stats": {
-      "accuracy": "100%",
-      "speed": "28ms",
-      "scale": "50K+ messages/day"
-    },
-    "fullDescription": "SecureChat X offers real-time encrypted messaging for teams and enterprises. Built with WebSockets and Redis caching for scalability.",
-    "color": "from-cyan-500/20 to-blue-500/20",
-    "large": false,
-    "liveLink": "https://securechat-demo.com",
-    "github": "https://github.com/username/securechat",
-    "languages": ["JavaScript", "Node.js", "Redis", "HTML"],
-    "features": [
-      "End-to-end encryption",
-      "Group messaging",
-      "Typing indicators",
-      "Push notifications",
-      "Scalable WebSocket architecture"
-    ],
-    "images": [
-      "https://placehold.co/800x400",
-      "https://placehold.co/800x400"
-    ]
-  }
-,
-  {
-    "title": "SecureChat X",
-    "description": "End-to-end encrypted real-time messaging platform.",
-    "category": "Web Application",
-    "tags": ["Node.js", "Socket.io", "Redis"],
-    "stats": {
-      "accuracy": "100%",
-      "speed": "28ms",
-      "scale": "50K+ messages/day"
-    },
-    "fullDescription": "SecureChat X offers real-time encrypted messaging for teams and enterprises. Built with WebSockets and Redis caching for scalability.",
-    "color": "from-cyan-500/20 to-blue-500/20",
-    "large": false,
-    "liveLink": "https://securechat-demo.com",
-    "github": "https://github.com/username/securechat",
-    "languages": ["JavaScript", "Node.js", "Redis", "HTML"],
-    "features": [
-      "End-to-end encryption",
-      "Group messaging",
-      "Typing indicators",
-      "Push notifications",
-      "Scalable WebSocket architecture"
-    ],
-    "images": [
-      "https://placehold.co/800x400",
-      "https://placehold.co/800x400"
-    ]
-  }
+  } 
 
 ]
